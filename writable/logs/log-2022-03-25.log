@@ -1,0 +1,26 @@
+CRITICAL - 2022-03-25 14:53:20 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 E:\xampp\htdocs\project-2022\lazuardi-002\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 E:\xampp\htdocs\project-2022\lazuardi-002\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 E:\xampp\htdocs\project-2022\lazuardi-002\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 E:\xampp\htdocs\project-2022\lazuardi-002\spark(45): require('E:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-03-25 09:25:45 --> Invalid file: admin/index.php
+#0 E:\xampp\htdocs\project-2022\lazuardi-002\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/index.php')
+#1 E:\xampp\htdocs\project-2022\lazuardi-002\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#2 E:\xampp\htdocs\project-2022\lazuardi-002\app\Controllers\Dashboard.php(9): view('admin/index')
+#3 E:\xampp\htdocs\project-2022\lazuardi-002\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 E:\xampp\htdocs\project-2022\lazuardi-002\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 E:\xampp\htdocs\project-2022\lazuardi-002\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\project-2022\lazuardi-002\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\xampp\htdocs\project-2022\lazuardi-002\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-25 09:25:53 --> Invalid file: admin/index.php
+#0 E:\xampp\htdocs\project-2022\lazuardi-002\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/index.php')
+#1 E:\xampp\htdocs\project-2022\lazuardi-002\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#2 E:\xampp\htdocs\project-2022\lazuardi-002\app\Controllers\Dashboard.php(9): view('admin/index')
+#3 E:\xampp\htdocs\project-2022\lazuardi-002\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 E:\xampp\htdocs\project-2022\lazuardi-002\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 E:\xampp\htdocs\project-2022\lazuardi-002\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\project-2022\lazuardi-002\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\xampp\htdocs\project-2022\lazuardi-002\system\Commands\Server\rewrite.php(43): require_once('E:\\xampp\\htdocs...')
+#8 {main}

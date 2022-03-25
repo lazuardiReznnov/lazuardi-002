@@ -1,0 +1,105 @@
+:root {
+  --huruf-satu: 'Roboto', sans-serif;
+  --huruf-dua: 'Montserrat', sans-serif;
+  --huruf-tiga:font-family: 'Sansita Swashed', cursive;
+  --warna-utama: #051367;
+  --warna-kedua: #2d31fa;
+  --warna-font-ketiga: #a5a5ad;
+  --warna-font-satu: #fff;
+  --warna-font-dua: #fdffa9;
+  --bayangan-satu: 0 0.125rem 0.25rem rgba(black, 0.075);
+  --ukr-font-1: 12px;
+  --ukr-font-2: 14px;
+  --ukr-font-3: 16px;
+  --ukr-font-4: 18px;
+  --ukr-font-5: 20px;
+  --ukr-font-6: 52px;
+  --font-tipis: 300;
+  --font-sedang: 500;
+  --font-bold: 700;
+}
+
+body,
+a {
+  font-family: var(--huruf-satu);
+  color: var(--warna-font-ketiga);
+}
+
+#kontent {
+  color: var(--warna-font-ketiga);
+}
+#kontent h1 {
+  font-size: var(--ukr-font-5);
+  font-weight: var(--font-bold);
+  text-shadow: var(--bayangan-satu);
+}
+.tombol a {
+  text-decoration: none;
+}
+
+/* navbar */
+.navbar {
+  background-color: var(--warna-utama);
+}
+
+/* aside */
+aside {
+  background-color: var(--warna-utama);
+  padding: 5px;
+  color: var(--ukr-font-3);
+  min-height: 500px;
+}
+
+aside > h3 {
+  font-family: var(--font-two);
+  font-size: var(--ukr-font-3);
+  margin-top: 4px;
+  letter-spacing: 5px;
+  font-weight: var(--font-bold);
+  text-shadow: var(--bayangan-satu);
+}
+
+/* MEnu */
+.list-group-item {
+  color: var(--warna-font-ketiga);
+  background-color: transparent;
+  font-size: 14px;
+}
+.list-group-item:hover {
+  background-color: var(--warna-font-dua);
+  color: var(--warna-utama);
+}
+/* end Menu */
+.card {
+  background-color: var(--warna-kedua);
+  color: var(--warna-font-satu);
+}
+.card-title {
+  font-size: var(--ukr-font-2);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.card-title a:hover {
+  color: var(--warna-font-ketiga);
+}
+.card-text {
+  font-size: var(--ukr-font-1);
+}
+.navbar-brand,
+.navbar-nav {
+  font-size: var(--ukr-font-2);
+  color: var(--warna-font-ketiga) !important;
+}
+footer {
+  font-family: var(--huruf-tiga);
+  font-weight: 600;
+  height: 100px;
+  background-color: var(--warna-utama);
+  padding: 2rem;
+  font-size: var(--ukr-font-2);
+}
+.display-4{
+  font-size: var(--ukr-font-6) !important;
+  color: var(--warna-font-ketiga);
+  text-shadow: var(--bayangan-satu);
+}
